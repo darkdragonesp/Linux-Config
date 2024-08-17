@@ -109,6 +109,7 @@ alias dac48="pw-metadata -n settings 0 clock.force-rate 48000"
 alias dac96="pw-metadata -n settings 0 clock.force-rate 96000"
 alias diferencias="DIFFPROG=kompare pacdiff --backup --sudo"
 alias mega="rclone mount -v --allow-non-empty mega: /mnt/DATOS/MEGA"
+alias plasma="killall plasmashell && kstart plasmashell"
 eval "$(starship init zsh)"
 #eval "$(oh-my-posh init zsh)"
 #eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/quick-term.omp.json)
