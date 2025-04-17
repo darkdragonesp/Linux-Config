@@ -89,7 +89,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
+export EDITOR='kate'
+export VISUAL='kate'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -102,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias actualizar="sudo pacman -Syu && yay -Syu --aur && flatpak update"
-alias actualizarMirrors="sudo reflector --latest 5 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+alias actualizarMirrors="sudo reflector --latest 5 -f 20 --protocol https --sort rate --country Spain,France,Germany --save /etc/pacman.d/mirrorlist"
 alias limpiar="flatpak uninstall --unused"
 alias dac192="pw-metadata -n settings 0 clock.force-rate 192000"
 alias dac48="pw-metadata -n settings 0 clock.force-rate 48000"
@@ -112,6 +113,7 @@ alias mega="rclone mount -v --allow-non-empty mega: /mnt/DATOS/MEGA"
 alias tv4k="kscreen-doctor output.HDMI-A-1.enable output.HDMI-A-1.mode.49 output.DP-1.disable"
 alias tv1k="kscreen-doctor output.HDMI-A-1.enable output.HDMI-A-1.mode.70 output.DP-1.disable"
 alias mon2k="kscreen-doctor output.DP-1.enable output.DP-1.mode.1 output.HDMI-A-1.disable"
+alias icat="kitten icat"
 eval "$(starship init zsh)"
 #eval "$(oh-my-posh init zsh)"
 #eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/quick-term.omp.json)
