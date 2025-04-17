@@ -1,0 +1,83 @@
+#/home/darkdragon/.config/btop/themes/
+# Bashtop theme with Arc Dark palette
+
+# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
+
+# Main background
+theme[main_bg]="#383c4a"
+
+# Main text color
+theme[main_fg]="#d3dae3"
+
+# Title color for boxes
+theme[title]="#8ca9bf"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#73c5e2"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#4877b1"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#ffffff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#616981"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#4877b1"
+
+# Cpu box outline color
+theme[cpu_box]="#4b5164"
+
+# Memory/disks box outline color
+theme[mem_box]="#4b5164"
+
+# Net up/down box outline color
+theme[net_box]="#4b5164"
+
+# Processes box outline color
+theme[proc_box]="#4b5164"
+
+# Box divider line and small boxes line color
+theme[div_line]="#4b5164"
+
+# Temperature graph colors
+theme[temp_start]="#4877b1"
+theme[temp_mid]="#73c5e2"
+theme[temp_end]="#fcfcfc"
+
+# CPU graph colors
+theme[cpu_start]="#4877b1"
+theme[cpu_mid]="#73c5e2"
+theme[cpu_end]="#fcfcfc"
+
+# Mem/Disk free meter
+theme[free_start]="#5ca75b"
+theme[free_mid]="#add488"
+theme[free_end]="#fcfcfc"
+
+# Mem/Disk cached meter
+theme[cached_start]="#a660c3"
+theme[cached_mid]="#e2afec"
+theme[cached_end]="#fcfcfc"
+
+# Mem/Disk available meter
+theme[available_start]="#5294e2"
+theme[available_mid]="#73c5e2"
+theme[available_end]="#fcfcfc"
+
+# Mem/Disk used meter
+theme[used_start]="#e14245"
+theme[used_mid]="#e16f7e"
+theme[used_end]="#fcfcfc"
+
+# Download graph colors
+theme[download_start]="#5294e2"
+theme[download_mid]="#73c5e2"
+theme[download_end]="#fcfcfc"
+
+# Upload graph colors
+theme[upload_start]="#f6ab32"
+theme[upload_mid]="#fdc35f"
+theme[upload_end]="#fcfcfc"
