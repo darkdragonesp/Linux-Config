@@ -11,7 +11,8 @@ sudo usbipd -D
 
 echo ""
 echo "Vinculando dispositivo USB con busid 1-3..."
-sudo usbip bind --busid 1-3
+sudo usbip bind --busid 1-1.1
+
 
 echo ""
 echo "Proceso completado."
