@@ -8,7 +8,7 @@ sudo steamos-readonly disable
 echo "Reinicializando claves PGP de pacman..."
 sudo rm -rf /etc/pacman.d/gnupg
 sudo pacman-key --init
-sudo pacman-key --populate archlinux
+sudo pacman-key --populate holo archlinux
 
 echo "Instalando usbip..."
 sudo pacman -S --noconfirm usbip
